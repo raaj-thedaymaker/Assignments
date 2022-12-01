@@ -1,0 +1,7 @@
+Altitude = int(input("Enter your current altitude captain: "))
+if(Altitude>10000):
+  print("Go around until u reach an altitude of 5000 feet or less than it")
+else if(Altitude=5000):
+  print("Land the plane by bringing it to 1000 feet")
+else:
+  print("Land the plane as you are cruising below an altitude of 5000 feet")
